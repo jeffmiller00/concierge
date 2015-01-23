@@ -1,4 +1,5 @@
 ActiveAdmin.register Property do
+  permit_params :name, :website
 
 
   # See permitted parameters documentation:
