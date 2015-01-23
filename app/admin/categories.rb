@@ -1,4 +1,5 @@
 ActiveAdmin.register Categories do
+  permit_params :name, :default_order
 
 
   # See permitted parameters documentation:
