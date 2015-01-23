@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'publics/index'
+
   resources :service_providers
 
   resources :categories
