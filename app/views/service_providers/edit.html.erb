@@ -1,6 +1,5 @@
-<h1>Editing service_provider</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @service_provider %> |
-<%= link_to 'Back', service_providers_path %>
+<%- model_class = ServiceProvider -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => [:'helpers.titles.edit', 'Edit %{model}'], :model => ServiceProvider %></h1>
+</div>
+<%= render :partial => 'form' %>
