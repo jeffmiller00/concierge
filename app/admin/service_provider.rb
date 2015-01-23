@@ -1,4 +1,5 @@
 ActiveAdmin.register ServiceProvider do
+  permit_params :name, :email
 
 
   # See permitted parameters documentation:
